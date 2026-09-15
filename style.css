@@ -1,1 +1,46 @@
-/* Add your styles here. */
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.bold {
+  color: darkred;
+}
+
+#page-title {
+  text-transform: uppercase;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border: 3px solid darkred;
+  display: block;
+  margin: 15px auto;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+h1, p {
+  text-align: center;
+}
