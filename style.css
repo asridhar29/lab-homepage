@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: goldenrod;
   font-family: Arial, sans-serif;
   margin: 20px;
 }
@@ -31,16 +31,50 @@ ul {
 img {
   width: 300px;
   height: auto;
-  border: 3px solid darkred;
+  border: 3px solid #333;
   display: block;
   margin: 15px auto;
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+table {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
   h1 {
     font-size: 22px;
   }
-}
-h1, p {
-  text-align: center;
 }
